@@ -1,34 +1,38 @@
 # Frontend voor Designers - opdracht 2: Een interactie uitwerken voor verschillende gebruikers input
 
-Werk een functionaliteit uit die je kunt bedienen met 'click' en nog een user interactie, zoals het toetsenbord, tab, dubbel click, swipe, long press, <del>force touch</del>, of iets anders ... Werk je ontwerp uit in HTML, CSS en Javascript om te kunnen testen in een [browser](https://en.m.wikipedia.org/wiki/List_of_web_browsers).
+Ik heb de case gekozen om een carousel te maken die je kan bedienen door pijltjes, bolletjes en door je toetsenbord.
+
+## Stap 1: Foto's naast elkaar
+Aan het begin vond ik het erg moeilijk, ik had geen idee hoe ik moest beginnen. De foto's naast elkaar zetten ging redelijk makkelijk. Ook heb ik buttons toegevoegd om verder te klikken en terug te klikken. 
+
+![interactie schetsen](img/afb1.png);
+
+## Stap 2: Scrollen door de foto's
+Daarna wilde ik dat je kon scrollen door de foto's, dit lukte al erg snel. Alleen kwam ik er later achter dat dit niet hoefde.
+
+![interactie schetsen](img/afb2.png);
+
+## Stap 3: Buttons koppelen aan foto's
+Ik merkte hier dat ik vast liep en wist niet meer hoe ik verder moest. Ik ben toen op internet gaan zoeken en vond een filmpje waar een meneer het erg goed uitlegde. Dus ik heb dit filmpje nagemaakt. Ik ben hier erg ver door gekomen.
+De foto's zijn nu gestapeld, de buttons onderin zitten in het midden en de buttons aan de zijkant aan de zijkant.
+
+![interactie schetsen](img/afb3.png);
+
+## Stap 4: Bolletjes
+Nu moesten de buttons onderin natuurlijk buttons worden. Dit ging erg makkelijk. Ook heb ik geleerd als je 'pointer' toevoegd dat je dan een handje krijgt als je met je muis erover heen gaat. 
+
+![interactie schetsen](img/afb4.png);
+
+## Stap 5: Foto's plaatsen
+Tijdens het filmpje plaatste hij de foto's naast elkaar en door op de buttons aan de zijkant te klikken ging je verder. Hier had ik moeite mee, ik kreeg de foto's niet naast elkaar. In de les ben ik erachter gekomen dat ik <li> verkeerd had staan. Op de afbeelding hieronder zijn de foto's weer op elkaar gestapeld en kan je ze bedienen door de buttons aan de zijkant.
 
 
-## Werkwijze
-Bedenk een functionaliteit die je op meerdere manieren kunt bedienen. Schets eerst hoe de functionaliteit er uit komt te zien. Maak daarna een breakdown-schets van hoe de verschillende elementen technisch moeten gaan werken...
+![interactie schetsen](img/afb5.png);
 
-Codeer de functionaliteit in HTML, CSS en JavaScript en test verschillende versies van je ontwerp in een browser.
+## Stap 6: Bedienen door bolletjes en Bolletjes mee laten bewegen
+Nu was de volgende stap de carousel te laten bewegen door middel van de bolletjes, dit is mij gelukt. Nu kreeg ik het helaas niet voor elkaar om het zwarte bolletje mee te laten bewegen met de foto. Ik heb de code van het filmpje precies overgenomen maar hij doet het niet. Dus snap het niet. Heb ook nog verder op internet gezocht maar dat werd dan moeilijk met een andere code.
 
-## Planning
-1. Les 3: Briefing opdracht 2 en beginnen met schetsen en coderen
-2. Les 4: Eerste versie testen
-3. Les 5: Oplevering en beoordeling
+## Stap 7: Bedienen door toetsenbord
+Doordat ik a heb gebruikt bij mijn bolletjes onderin kan ik doormiddel van op enter te drukken naar de volgende foto. Nu deed die het alleen maar vanaf de 2e foto wat ik erg raar vond. Later bleek het toen ik de site op github had gezet dat het bedienen door het toetsenbord het niet meer deed. Helaas heb ik nu niet genoeg tijd meer om het aan te passen. 
 
-
-## Voorbeeld functionaliteit die je kunt maken
-- Carousel met vakantiefoto's: Een carousel met meerdere foto's van een vakantie, die je kan bedienen met een button en met de pijltjes op het toetsenbord.
-- Portfolio website met meerdere projecten en een biografie. Als je naar 'beneden' scrollt vult de betreffende section zich met informatie. Als je op tab klikt ga je ook naar de volgende section. Of als je 'volgende' roept ...
-- Settings panel op een foto-overzichtpagina: Instellingen zijn bijvoorbeeld de font-grootte, night vision en het aantal kolommen die naast elkaar worden getoond. Het bedienen van de instellingen moet met de muis en de sneltoetsen op het toetsenbord.
-- Je mag ook een eigen idee uitwerken. Kom dan eerst even overleggen.
-
-
-## Criteria
-
-1. In de demo maak je gebruik van verschillende [User Interface events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent).
-2.In de demo dien je rekening te houden met de interface design principles 04, 08 & 09 van [Principles of User Interface Design](http://bokardo.com/principles-of-user-interface-design/).
-3. Je ontwerp is aantoonbaar getest en verbeterd. Verslaglegging en resultaat publiceren op Github. <br>Voeg ook je breakdown-schets toe, en beschrijf je eerste idee en technische opzet en hoe het uiteindelijk is geworden.
-
-
-## Resources
-- Bekijk hier de lijst [User Interface Events](https://developer.mozilla.org/en-US/docs/Web/API/UIEvent) die je in javascript kunt gebruiken.
-- Als je iets wil doen met scrollen, dan kun je het event 'scroll' gebruiken. Misschien kun je ook iets doen met de [Intersection observer](https://pawelgrzybek.com/the-intersection-observer-api-explained/)
-- Als een onderdeel van je pagina in beeld moet verschijnen na een click, dan kun je iets doen met [scrollIntoView](https://developer.mozilla.org/en-US/docs/Web/API/Element/scrollIntoView).
+![interactie schetsen](img/afb6.png);
